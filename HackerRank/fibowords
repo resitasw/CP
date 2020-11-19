@@ -1,0 +1,13 @@
+def solve(a,b,n):
+    while True:
+        hasil = a+b
+        a = b
+        b = hasil
+        if len(hasil)>=n:
+            return hasil[n-1]
+
+
+for _ in range(input()):
+    a,b,n = raw_input().split()
+    n = int(n)
+    print(solve(a,b,n))
