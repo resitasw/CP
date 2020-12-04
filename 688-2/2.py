@@ -24,10 +24,9 @@ def mana(selisih):
         
     
 def solve(a):
-    if len(a)==1:
+    if len(a)<=2:
         return 0
-    if len(a)==2:
-        return abs(a[0]-a[1])
+    
     selisih = []
     for i in range(len(a)-1):
         selisih.append(a[i]-a[i+1])
