@@ -1,0 +1,18 @@
+Holidays are coming up really soon. Rick realized that it's time to think about buying a traditional spruce tree. But Rick doesn't want real trees to get hurt so he decided to find some in an 𝑛×𝑚 matrix consisting of "*" and ".".
+To find every spruce first let's define what a spruce in the matrix is. A set of matrix cells is called a spruce of height 𝑘 with origin at point (𝑥,𝑦) if:
+
+All cells in the set contain an "*".
+For each 1≤𝑖≤𝑘 all cells with the row number 𝑥+𝑖−1 and columns in range [𝑦−𝑖+1,𝑦+𝑖−1] must be a part of the set. All other cells cannot belong to the set.
+Now Rick wants to know how many spruces his 𝑛×𝑚 matrix contains. Help Rick solve this problem.
+
+Input
+Each test contains one or more test cases. The first line contains the number of test cases 𝑡 (1≤𝑡≤10).
+
+The first line of each test case contains two integers 𝑛 and 𝑚 (1≤𝑛,𝑚≤500) — matrix size.
+
+Next 𝑛 lines of each test case contain 𝑚 characters 𝑐𝑖,𝑗 — matrix contents. It is guaranteed that 𝑐𝑖,𝑗 is either a "." or an "*".
+
+It is guaranteed that the sum of 𝑛⋅𝑚 over all test cases does not exceed 5002 (∑𝑛⋅𝑚≤5002).
+
+Output
+For each test case, print single integer — the total number of spruces in the matrix.
