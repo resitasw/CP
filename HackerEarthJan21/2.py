@@ -51,4 +51,4 @@ for i in range(q):
             s = depan +hm
 
 # print(hitung("aaaa","aa"))
-        udysghjsgjhagj
+        

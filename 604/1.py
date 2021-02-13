@@ -62,5 +62,3 @@ for _ in xrange(t):
     kata = raw_input()
     kata = list(kata)
     print solve(kata)
-
-    hfjsdhfjshj
