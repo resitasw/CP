@@ -50,5 +50,5 @@ for i in range(q):
             # belakang = s[r:]
             s = depan +hm
 
-# print(hitung("aaaa","aa"))
+
         
