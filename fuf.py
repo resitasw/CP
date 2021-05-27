@@ -21,3 +21,5 @@ def get_prime_factors(number):
         prime_factors[number]+=1
 
     return prime_factors
+
+# heheh
