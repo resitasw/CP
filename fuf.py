@@ -22,4 +22,4 @@ def get_prime_factors(number):
 
     return prime_factors
 
-# heheh
+# hehe
